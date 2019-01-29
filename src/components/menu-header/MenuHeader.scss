@@ -35,6 +35,8 @@
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
+    left: 0;
+    top: 0;
   }
   
   /* General sidebar styles */
@@ -77,5 +79,7 @@
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
   }
   
