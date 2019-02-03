@@ -9,26 +9,33 @@ import { Keyframes, Frame } from 'react-keyframes'
 class MainContainer extends Component {
     render() {
         return (
+            <div>
+                
+                <Container style={styles.container}>
 
-            <Container style={styles.container}>
+                    <Keyframes component="pre" loop className="animation-test">
+                    <Frame duration={100}>
+                            <img style={{...styles.flowers, ...styles.startFlowers}} src={flowers} />
+                        </Frame>
+                        <Frame duration={15000}>
+                            <img style={{ ...styles.flowers, ...styles.zoomLoop }} src={flowers} />
+                        </Frame>
+                        <Frame duration={15000}>
+                            <img style={styles.flowers} src={flowers} />
+                        </Frame>
+                    </Keyframes>
 
-                <Keyframes component="pre" loop className="animation-test">
-                    <Frame duration={15000}>
-                        <img style={styles.mainContainer} src={flowers} />
-                    </Frame>
-
-                    <Frame duration={15000}>
-                        <img style={{ ...styles.mainContainer, ...styles.zoomLoop }} src={flowers} />
-                    </Frame>
-                </Keyframes>
-
-            </Container>
+                </Container>
+            </div>
         );
     }
 }
 
 const styles = {
-    mainContainer: {
+    startFlowers: {
+        transition: '0.1s'
+    },
+    flowers: {
         height: '100vh',
         maxHeight: '100vh',
         width: '100%',
@@ -44,6 +51,9 @@ const styles = {
     container: {
         display: 'inline-block',
         overflow: 'hidden'
+    },
+    fade: {
+
     }
 }
 
