@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import MenuHeader from './components/menu-header/MenuHeader';
+import MenuHeader from '../components/menu-header/MenuHeader';
 import { Provider } from 'react-redux'
-
-import createStore from './store'
-
-import logo from './logo.svg'
+import createStore from '../store'
+import './App.css'
+import MainContainer from '../components/main-container/MainContainer';
 
 
 class App extends Component {
@@ -12,8 +11,8 @@ class App extends Component {
     return (
       <Provider store={createStore()}>
         <div className="App">
-          <MenuHeader >
-            <img src={logo} />
+          <MenuHeader>
+            <MainContainer />
           </MenuHeader>
         </div>
       </Provider>

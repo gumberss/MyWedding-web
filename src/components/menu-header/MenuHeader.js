@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import { bubble as Menu } from 'react-burger-menu'
 
 import './MenuHeader.css'
 
-export default class MenuHeader extends Component {
+class MenuHeader extends Component {
 
     showSettings = e => {
         e.preventDefault()
@@ -23,3 +24,6 @@ export default class MenuHeader extends Component {
         )
     }
 }
+
+
+export default connect()(MenuHeader)
