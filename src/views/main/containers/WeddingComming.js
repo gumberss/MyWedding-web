@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import ScrollAnimation from 'react-animate-on-scroll'
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 
-import goMarige from '../../images/bora-casar.png'
-
-// import { Container } from './styles';
+import goMarige from '../../../images/bora-casar.png'
 
 class WeddingComming extends Component {
     render() {

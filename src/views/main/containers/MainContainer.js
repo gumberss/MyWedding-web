@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Container from '../container/Container';
-import flowers from '../../images/flowers.jpg'
+import Container from '../../../components/container/Container';
+import flowers from '../../../images/flowers.jpg'
 
 import { Keyframes, Frame } from 'react-keyframes'
 
