@@ -40,9 +40,7 @@ class MainContainer extends Component {
     render() {
         return (
             <div>
-                <Container style={styles.fade}>
-
-                </Container>
+                <Container style={styles.fade} />
                 <Container style={styles.container}>
 
                     <Keyframes component="pre" loop className="animation-test">
