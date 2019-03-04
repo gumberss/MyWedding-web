@@ -113,7 +113,6 @@ const styles = {
         transform: 'scale(1.3)',
     },
     container: {
-        display: 'inline-block',
         overflow: 'hidden'
     },
     fade: {

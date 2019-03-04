@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import createStore from '../store'
 import './App.css'
 import Main from '../views/main/Main';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
   render() {
@@ -11,7 +12,12 @@ class App extends Component {
       <Provider store={createStore()}>
         <div className="App">
           <MenuHeader>
-            <Main />
+            <Router>
+              <Switch>
+                <Route exact path="/" component={Main}></Route>
+              </Switch>
+            </Router>
+            
           </MenuHeader>
         </div>
       </Provider>

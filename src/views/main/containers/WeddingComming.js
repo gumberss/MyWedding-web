@@ -18,19 +18,19 @@ class WeddingComming extends Component {
 
                     <ScrollAnimation animateIn='bounceInRight' animateOnce delay={800}>
                         <h2 style={styles.weddingCommingText}>
-                            O casamento
+                            𝒪 𝒸𝒶𝓈𝒶𝓂𝑒𝓃𝓉𝑜
                         </h2>
                     </ScrollAnimation>
 
                     <ScrollAnimation animateIn='bounceInRight' animateOnce delay={1800} >
                         <h2 style={styles.weddingCommingText}>
-                            está
+                            𝑒𝓈𝓉á
                         </h2>
                     </ScrollAnimation>
 
                     <ScrollAnimation animateIn='bounceInRight' animateOnce delay={2600}>
                         <h2 style={styles.weddingCommingText}>
-                            chegando...
+                            𝒸𝒽𝑒𝑔𝒶𝓃𝒹𝑜
                         </h2>
                     </ScrollAnimation>
 
@@ -42,14 +42,16 @@ class WeddingComming extends Component {
 
 const styles = {
     weddingCommingText: {
-        paddingLeft: '8px',
-        color: 'white'
+        paddingLeft: '10px',
+        color: 'white',
+        paddingTop: '20vh'
     },
     paralaxContent: {
         height: '500px',
         display: 'flex',
         alignItems: 'center',
         paddingLeft: '30px'
+
     }
 }
 
