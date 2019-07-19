@@ -6,7 +6,7 @@
     "animate.css": "^3.7.0",
     "react": "^16.7.0",
     "react-animate-on-scroll": "^2.1.5",
-    "react-burger-menu": "^2.6.1",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.7.0",
     "react-keyframes": "^0.2.3",
     "react-navigation": "^3.3.2",

@@ -121,8 +121,7 @@ const styles = {
         backgroundColor: 'purple',
         opacity: '0.2',
         filter: 'blur(8px)',
-        '-webkit-filter': 'blur(8px)'
-
+        WebkitFilter: 'blur(8px)'
     }
 }
 
