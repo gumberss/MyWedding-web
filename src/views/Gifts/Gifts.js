@@ -2,17 +2,34 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 import Container from '../../components/container/Container'
-import { withRouter } from "react-router";
 
-import Link from 'react-router-dom/Link'
+import Card from '../../components/Card/Card';
 
 class Gifts extends Component {
 
     render() {
-        return  <Link to='/'>display text</Link>
+        return (
+            <div style={styles.container}>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </div>
+        )
+    }
+}
+
+const styles = {
+    container: {
+        paddingLeft: '100px',
+        paddingRight: '100px',
+        display: 'flex',
+        flexWrap: 'wrap',
     }
 }
 
 
-
-export default withRouter(Gifts)
+export default connect()(Gifts)

@@ -12,7 +12,8 @@ class App extends Component {
     return (
       <Provider store={createStore()}>
         <Router>
-          <div className="App">
+          <div className="App" >
+          <style>{'body { background-color: #d6abff; }'}</style>
             <MenuHeader />
             <Switch>
               <Route exact path="/" component={Main}></Route>
@@ -20,7 +21,6 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
-
       </Provider>
     );
   }
