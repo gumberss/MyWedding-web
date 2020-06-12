@@ -58,7 +58,7 @@ const styles = {
         opacity: 1,
         height: '400px',
         maxWidth: '250px',
-        minWidth: '200px',
+        minWidth: '250px',
         backgroundColor: 'white',
         borderRadius: '3px',
         transition: '0.3s',

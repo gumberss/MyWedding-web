@@ -107,10 +107,10 @@ const styles = {
         justifyContent: 'center',
         transition: '15s',
         overflow: 'hidden',
-        transform: 'scale(1.2)',
+        transform: 'scale(1.3)',
     },
     zoomLoop: {
-        transform: 'scale(1.3)',
+        transform: 'scale(1.5)',
     },
     container: {
         overflow: 'hidden'

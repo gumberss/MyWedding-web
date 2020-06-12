@@ -14,10 +14,8 @@ class App extends Component {
         <Router>
           <div className="App" >
           <style>{'body { background-color: #d6abff; }'}</style>
-            <MenuHeader />
             <Switch>
-              <Route exact path="/" component={Main}></Route>
-              <Route path="/gifts" component={Gifts}></Route>
+              <Route path="/" component={Main}></Route>
             </Switch>
           </div>
         </Router>
