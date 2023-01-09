@@ -1,2 +1,2 @@
 # MyWedding-web
-Web app to present features of my Wedding.
+Web app to present features of my Wedding. 
